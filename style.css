@@ -453,4 +453,7 @@ body.dark .home .text {
   .items-body {
     padding: 12px 20px;
   }
+  .image-body {
+    height: 280px;
+  }
 }
