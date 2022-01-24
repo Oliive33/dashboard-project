@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--======== CSS ======== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--===== Boxicons CSS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Dashboard Sidebar Menu</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img class="logo" src="./logo_Mazaryne.png" alt="logo mazaryne" />
+          </span>
+
+          <div class="text logo-text">
+            <span class="name">Mazaryne</span>
+            <span class="profession">S'exprimer avec style!</span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link accueil-dashboard">
+              <a href="#">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Tableau de bord</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text nav-text">Mes Achats</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-wallet icon"></i>
+                <span class="text nav-text">Mes Ventes</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-chat icon"></i>
+                <span class="text nav-text">Ma Messagerie</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-heart icon"></i>
+                <span class="text nav-text">J'aime</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-cog icon"></i>
+                <span class="text nav-text">Mes Paramètres</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="bottom-content">
+          <li class="nav-link">
+            <a href="#">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Déconnexion</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="home">
+      <h1 class="text">Mon compte client</h1>
+      <span class="sous-titre-home">Bienvenue sur votre compte</span>
+
+      <div class="items-body">
+        <div class="items-title">
+          <h3>Membres depuis le :</h3>
+          <div class="items">
+            <i class="bx bxs-user icon"></i>
+            <span class="items-user-txt icones-body" id="items-user-date"
+              >01/01/22</span
+            >
+          </div>
+        </div>
+        <div class="items-title">
+          <h3>Argent gagné grâce à vos ventes :</h3>
+          <div class="items">
+            <i class="bx bx-money icon"></i>
+            <span class="items-user-txt icones-body" id="items-user-money"
+              >150€</span
+            >
+          </div>
+        </div>
+        <div class="items-title">
+          <h3>Votre note vendeur :</h3>
+          <div class="items">
+            <i class="bx bxs-star icon"></i>
+            <span class="items-user-txt icones-body" id="items-user-notes"
+              >5/5</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="image-body">
+        <!-- <img src="./mode.jpg" alt="image mode" /> -->
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
