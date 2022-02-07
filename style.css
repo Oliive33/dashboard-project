@@ -151,7 +151,7 @@ header .image-text .profession {
   padding: 1px;
   border: none;
   outline: none;
-  box-shadow: 2px 3px 8px 0px rgba(158, 158, 158, 0.55);
+  box-shadow: 2px 2px 4px 0px rgba(158, 158, 158, 0.35);
 }
 
 .sidebar header .toggle {
@@ -314,24 +314,23 @@ body.dark .switch::before {
   font-size: 30px;
   font-weight: 600;
   color: var(--text-color);
-  padding: 12px 50px;
+  padding: 12px 40px;
   font-family: "Caslon540", sans-serif;
 }
 .home .sous-titre-home {
   font-size: 25px;
   font-weight: 500;
   color: var(--text-color);
-  padding: 12px 50px;
+  padding: 12px 40px;
   font-family: "Caslon540", sans-serif;
 }
 .items-body {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 70px;
+  grid-template-columns: repeat(3, 0.4fr);
+  grid-column-gap: 50px;
   font-size: 18px;
   font-weight: 400;
-  color: var(--text-color);
-  padding: 12px 50px;
+  padding: 12px 40px;
   font-family: "Caslon540", sans-serif;
 }
 /* .items-titles {
@@ -345,14 +344,14 @@ body.dark .switch::before {
   color: var(--text-color);
   padding: 12px 0px;
   font-family: "Caslon540", sans-serif;
-  font-size: 22px;
+  font-size: 19px;
 }
 .items {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
-  padding: 12px 45px;
+  padding: 10px 35px;
   margin-top: 15px;
   border: none;
   border-radius: 50px;
@@ -360,13 +359,13 @@ body.dark .switch::before {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  box-shadow: 2px 3px 4px 0px rgba(158, 158, 158, 0.55);
+  box-shadow: 2px 2px 4px 0px rgba(158, 158, 158, 0.25);
 }
 .icon {
   font-size: 25px;
 }
 .icones-body {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .image-body {
@@ -427,15 +426,16 @@ body.dark .home .text {
     padding: 12px 10px;
   }
   .home .sous-titre-home {
-    font-size: 18px;
-    margin: 10px;
+    display: flex;
+    font-size: 15px;
+    margin-left: 10px;
     padding: 12px 10px;
   }
   .items-body {
     padding: 12px 40px;
   }
   .items-body h3 {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 395px) {
@@ -449,11 +449,17 @@ body.dark .home .text {
   }
   .home .sous-titre-home {
     display: inline-flex;
+    font-size: 14px;
+
+    padding: 12px 10px;
   }
   .items-body {
     padding: 12px 20px;
   }
   .image-body {
     height: 280px;
+  }
+  .items-body h3 {
+    font-size: 16px;
   }
 }
