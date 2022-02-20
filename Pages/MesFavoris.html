@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--======== CSS ======== -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/favoris.css" />
 
     <!--===== Boxicons CSS ===== -->
     <link
@@ -14,14 +15,14 @@
       rel="stylesheet"
     />
 
-    <title>Dashboard Sidebar Menu</title>
+    <title>Mes Transactions</title>
   </head>
   <body>
     <nav class="sidebar close">
       <header>
         <div class="image-text">
           <span class="image">
-            <img class="logo" src="./logo_Mazaryne.png" alt="logo mazaryne" />
+            <img class="logo" src="../logo_Mazaryne.png" alt="logo mazaryne" />
           </span>
 
           <div class="text logo-text">
@@ -37,34 +38,34 @@
         <div class="menu">
           <ul class="menu-links">
             <li class="nav-link accueil-dashboard">
-              <a href="#">
+              <a href="../index.html">
                 <i class="bx bx-home-alt icon"></i>
                 <span class="text nav-text">Tableau de bord</span>
               </a>
             </li>
             <li class="nav-link">
-              <a href="./Pages/MesTransactions.html">
+              <a href="./MesTransactions.html">
                 <i class="bx bx-wallet icon"></i>
                 <span class="text nav-text">Mes Transactions</span>
               </a>
             </li>
 
             <li class="nav-link">
-              <a href="./Pages/messagerie.html">
+              <a href="./messagerie.html">
                 <i class="bx bx-chat icon"></i>
                 <span class="text nav-text">Ma Messagerie</span>
               </a>
             </li>
 
             <li class="nav-link">
-              <a href="./Pages/MesFavoris.html">
+              <a href="./MesFavoris.html">
                 <i class="bx bx-heart icon"></i>
                 <span class="text nav-text">J'aime</span>
               </a>
             </li>
 
             <li class="nav-link">
-              <a href="./Pages/MonProfil.html">
+              <a href="./MonProfil.html">
                 <i class="bx bx-cog icon"></i>
                 <span class="text nav-text">Mon Profil</span>
               </a>
@@ -96,43 +97,27 @@
     </nav>
 
     <section class="home">
-      <h1 class="text">Mon compte client</h1>
-      <span class="sous-titre-home">Bienvenue sur votre compte</span>
+      <h1 class="text">Mes Favoris</h1>
+      <span class="sous-titre-home">Bienvenue sur votre page de favoris</span>
 
-      <div class="items-body">
+      <div class="items-body-favoris">
         <div class="items-title">
-          <h3>Membres depuis le :</h3>
-          <div class="items">
-            <i class="bx bxs-user icon"></i>
-            <span class="items-user-txt icones-body" id="items-user-date"
-              >01/01/22</span
-            >
-          </div>
-        </div>
-        <div class="items-title">
-          <h3>Argent gagné grâce à vos ventes :</h3>
-          <div class="items">
-            <i class="bx bx-money icon"></i>
-            <span class="items-user-txt icones-body" id="items-user-money"
-              >150€</span
-            >
-          </div>
-        </div>
-        <div class="items-title">
-          <h3>Votre note vendeur :</h3>
-          <div class="items">
-            <i class="bx bxs-star icon"></i>
-            <span class="items-user-txt icones-body" id="items-user-notes"
-              >5/5</span
-            >
+          <h3>Ma Wishlist</h3>
+          <div class="item-favoris">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur optio possimus aliquid quod nostrum error! Dicta id a
+              animi eos, nesciunt fuga temporibus. Cumque accusamus, rerum
+            </p>
           </div>
         </div>
       </div>
+      <span class="item-wish">Votre Wishlist est vide...</span>
       <div class="image-body">
         <!-- <img src="./mode.jpg" alt="image mode" /> -->
       </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>

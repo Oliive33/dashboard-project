@@ -333,12 +333,6 @@ body.dark .switch::before {
   padding: 12px 40px;
   font-family: "Caslon540", sans-serif;
 }
-/* .items-titles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-} */
 .items-body h3 {
   font-weight: 500;
   color: var(--text-color);
@@ -405,13 +399,16 @@ body.dark .home .text {
     padding: 12px 35px;
   }
   .home .sous-titre-home {
-    font-size: 22px;
-    padding: 12px 35px;
+    font-size: 20px;
+    padding: 12px 25px;
   }
 }
 @media screen and (max-width: 768px) {
   .items {
     min-width: 100%;
+  }
+  .items-body h3 {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 515px) {
