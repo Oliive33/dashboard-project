@@ -4,6 +4,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+:root {
+  /* ===== Colors ===== */
+  --body-color: rgb(233, 207, 198);
+  --sidebar-color: #fff;
+  --primary-color: #e44b55;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #333;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}
 
 .items-body-favoris,
 .item-wish {

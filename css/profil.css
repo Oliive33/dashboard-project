@@ -1,0 +1,48 @@
+.items-profil {
+  gap: 3rem;
+}
+
+label.toggle-switch-profil {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+}
+
+.check-profil[type="checkbox"] {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.switch-profil {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b1b1b1;
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.switch-profil::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 5px;
+  bottom: 4px;
+  background-color: #fff;
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.check-profil:checked + .switch-profil {
+  background-color: #90111c;
+}
+
+.check-profil:checked + .switch-profil:before {
+  transform: translateX(44px);
+}

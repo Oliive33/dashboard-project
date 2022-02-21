@@ -22,3 +22,10 @@ modeSwitch.addEventListener("click", () => {
     modeText.innerText = "Dark mode";
   }
 });
+//==================toggle profil================//
+// const toggleProfil = document.querySelector(".toggle-switch-profil");
+// const toggleButtonProfil = document.querySelector(".switch-profil");
+
+// toggleProfil.addEventListener("click", () => {
+//   toggleButtonProfil.classList.toggle("active");
+// });
